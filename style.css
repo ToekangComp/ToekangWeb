@@ -1,0 +1,154 @@
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+.logo {
+    position: relative;
+    height: 900;
+    width: 400px;
+    bottom: 154px;
+    left: 245px;
+}
+
+footer p {
+    padding: 13px 0 5px 30px;
+    font-size: 80%;
+}
+
+body {
+    color: black;
+    background-color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;
+    /* border: 2px solid #000; */
+    background-color: #ffffff;
+}
+
+header {
+    padding-top: 20px;
+    /* padding-left: 30px; */
+    height: 160px;
+}
+
+header img {
+    padding-left: 30px;
+    width: 300px;
+}
+
+h1 {
+    margin: 0;
+    width: 940px;
+    height: 75px;
+}
+
+footer,
+nav {
+    
+    text-align: center;
+    clear: both;
+    color: #ff0000;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 940px;
+    /* padding-top: 30px; */
+}
+
+nav ul {
+    margin: 0;
+    padding: 13px 0 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 40px 0 0;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li a.current,
+nav li a:hover {
+    color: aqua;
+}
+
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeeeee;
+}
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 23px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeeeee;
+}
+
+figcaption {
+    font-size: 95%;
+    text-align: center;
+}
+
+aside {
+    width: 230px;
+    float: left;
+    padding: 0 0 0 20px;
+
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+}
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 10px 0 5px;
+}
+
+h3 {
+    margin: 0 0 10px;
+    color: burlywood;
+}
+
+aside h2 {
+    padding: 10px 0;
+}
